@@ -58,7 +58,7 @@ def extract_features(audio_path):
 # --------------------------------- PARTE 2: STREAMLIT --------------------------------- #
 
 # Configuração do app Streamlit (Título e descrição)
-# Code here
+st.title('Bem-vindo ao reconhecimento de áudio por inteligência artificial! 😃')
 
 # Upload de arquivo de áudio (wav, mp3, ogg)
 uploaded_file = st.file_uploader(
